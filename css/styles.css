@@ -44,7 +44,7 @@ body {
 .text {
   font-size: 16px;
   line-height: 1.5;
-  /* letter-spacing: 0.02em; */
+  letter-spacing: 0.02em;
 }
 
 .text-dark-theme {
@@ -92,11 +92,8 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--main-color);
-}
-
-.current-page {
-  color: var(--hover-color);
 }
 
 .menu-link:hover,
@@ -106,13 +103,17 @@ body {
 
 .contact {
   font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--text-color);
 }
 
-.contact:hover,
-.contact:focus {
+.contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color-light-theme);
+}
+
+.contact-link:hover,
+.contact-link:focus {
   color: var(--hover-color);
 }
 /* --------------- /Header ---------------*/
@@ -140,6 +141,9 @@ body {
 /* --------------- /HERO ---------------*/
 
 /* --------------- TEAM ---------------*/
+.team {
+  background-color: var(--main-color-dark-theme: );
+}
 .team-item {
   background-color: var(--text-color-dark-theme: );
 }
