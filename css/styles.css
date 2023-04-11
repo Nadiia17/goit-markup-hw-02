@@ -142,10 +142,10 @@ body {
 
 /* --------------- TEAM ---------------*/
 .team {
-  background-color: var(--main-color-dark-theme: );
+  background-color: var(--main-color-dark-theme);
 }
 .team-item {
-  background-color: var(--text-color-dark-theme: );
+  background-color: var(--text-color-dark-theme);
 }
 /* --------------- /TEAM --------------*/
 
