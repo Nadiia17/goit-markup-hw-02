@@ -18,7 +18,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--text-color-light-theme);
-  letter-spacing: 0.02em;
+
   background-color: var(--text-color-dark-theme);
 }
 
@@ -29,6 +29,7 @@ body {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
   color: var(--main-color);
 }
 
@@ -36,6 +37,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--main-color);
 }
 
@@ -52,6 +54,15 @@ body {
   color: var(--text-color-light-theme);
 }
 
+.button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
 /* --------------/Components------------ */
 
 /* --------------- Logo --------------- */
@@ -62,9 +73,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.logo-web {
   color: var(--accent-color);
 }
 
@@ -76,13 +84,6 @@ body {
   color: var(--main-color-dark-theme);
 }
 
-.button {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-}
 /* --------------- /Logo --------------- */
 
 /* --------------- Header ---------------*/
@@ -120,11 +121,12 @@ body {
 .hero {
   background-color: var(--main-color);
 }
-.hero-title {
+.page-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   color: var(--text-color-dark-theme);
+  letter-spacing: 0.02em;
 }
 
 .button-main {
@@ -138,8 +140,8 @@ body {
 /* --------------- /HERO ---------------*/
 
 /* --------------- TEAM ---------------*/
-.team {
-  background-color: var(--main-color-dark-theme);
+.team-item {
+  background-color: var(--text-color-dark-theme: );
 }
 /* --------------- /TEAM --------------*/
 
