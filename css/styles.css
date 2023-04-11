@@ -45,7 +45,7 @@ body {
 }
 
 .text-dark-theme {
-  color: var();
+  color: var(--main-color-dark-theme);
 }
 .text-light-theme {
   color: var(--text-color-light-theme);
